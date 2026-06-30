@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav */
+
+.barraNav {
+  background: #ffbb00;
+}
+
+.divNav {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 1000px;
+  text-align: right;
+  margin-left:96px;
+}
+
+.ulNav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav .ulNav li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.nav .ulNav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  padding-bottom: 2px;
+  font-family: Inter;
+  border-bottom: 2px rgba(0, 0, 0, 0) solid;
+  transition: 0.5s;
+}
+
+.nav .ulNav li a:hover {
+  color: #e3000b;
+  border-bottom: 2px #e3000b solid;
+}
+
+.nav .ulNav li a.activo {
+  color: #e3000b;
+  border-bottom: 2px #e3000b solid;
+}
+
+/* Logo */
+
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  background: url("img/LEGO_logo.svg.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#logo a {
+  display: block;
+  height: 100px;
+  font-size: 0;
+}
+
+.contenedorMain {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Banner */
+
+.banner {
+  width: 1200px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  background: url("img/map.jpg"), white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bannerContenido h2 {
+  font-family: Inter;
+  font-size: 40px;
+  text-align: center;
+  padding: 160px;
+  -webkit-text-stroke: 6px white;
+  paint-order: stroke fill;
+}
+
+/* Brand Values */
+
+.brandValues {
+  width: 1200px;
+  font-size: 0;
+  text-align: center;
+}
+
+.h2 {
+  font-family: Inter;
+  font-size: 50px;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.articleValues {
+  display: inline-block;
+  width: 480px;
+  vertical-align: text-top;
+  margin-bottom: 50px;
+}
+.cabeceraCard {
+  display: block;
+  font-size: 0;
+  height: 130px;
+}
+.imgArticle {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.tituloArticle {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  height: 130px;
+  padding-top: 56px;
+}
+
+.h3Values {
+  display: block;
+  font-family: Inter;
+  margin-left: 16px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  color: #000;
+}
+
+.barraAmarilla {
+  display: block;
+  width: 280px;
+  height: 20px;
+  margin-top: 10px;
+  background-color: #ffbb00;
+}
+.textoCard {
+  display: block;
+  margin-top: 15px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+
+.articleValues:nth-child(odd){
+    margin-left: 240px;
+}
+
+/* Lego Promises */
+
+.promises {
+  width: 1200px;
+  font-size: 0;
+  text-align: center;
+}
+
+.promiseCard {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;      
+  box-sizing: border-box;  
+  padding: 0 20px;
+}
+
+
+.h3People {
+  display: block;
+  font-family: Inter;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/people.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  -webkit-text-stroke:4px white;
+  paint-order: stroke fill;
+}
+
+.h3Play {
+  display: block;
+  font-family: Inter;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/play.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  -webkit-text-stroke:4px white;
+  paint-order: stroke fill;
+}
+
+.h3Planet {
+  display: block;
+  font-family: Inter;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/planet.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  -webkit-text-stroke:4px white;
+  paint-order: stroke fill;
+}
+
+.h3Partner {
+  display: block;
+  font-family: Inter;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+  height: 260px;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/partner.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  -webkit-text-stroke:4px white;
+  paint-order: stroke fill;
+}
+
+.textoCard {
+  display: block;
+  margin-top: 15px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+}
+
+/* LEGO Insiders */
+
+.insiders {
+  margin-top: 100px;
+  background: #FFBB00;
+}
+
+.insidersContenido {
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 20px 50px 0; 
+}
+
+.insidersTexto {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.insidersTexto h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.insidersTexto h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.insidersTexto p {
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.insidersCards {
+  display: inline-block;
+  vertical-align: top;
+  width: 800px;   
+  font-size: 0;
+  text-align: right;
+}
+
+.insiderCard {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;     
+  height: 320px;    
+  box-sizing: border-box;
+  margin-right: 40px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.insiderCard:last-child {
+  margin-right: 0;
+}
+
+.insiderCardImg {
+  display: block;
+  width: 100%;
+  height: 140px;   
+  margin: 0;
+  border-radius: 20px;
+}
+
+.insiderCardImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.insiderCardTexto {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 20px;   
+}
+
+.insiderCard h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.insiderCard p {
+  font-family: Inter;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #000;
+}
+
+.divNavFooter {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.divNavFooter .nav {
+  vertical-align: top;
+}
+
+.divNavFooter .nav .ulNav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  padding-bottom: 2px;
+  font-family: Inter;
+  border-bottom: 2px rgba(0, 0, 0, 0) solid;
+  transition: 0.5s;
+}
+
+.divNavFooter .nav .ulNav li a:hover {
+  color: #e3000b;
+  border-bottom: 2px #e3000b solid;
+}
+
+.divNavFooter .nav .ulNav li a.activo {
+  color: #e3000b;
+  border-bottom: 2px #e3000b solid;
+}
+
+.seguinos {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: right;   
+  font-size: 0;         
+}
+
+.seguinos h3 {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Inter;
+  font-size: 20px;     
+  font-weight: 400;
+  color: white;
+  margin-right: 5px;
+}
+
+.seguinos a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.seguinos a img {
+  display: block;
+  width: 32px;       
+  height: 32px;
+  object-fit: contain;
+}
+
+.footer p {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0 20px;
+  font-family: Inter;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: left;
+}
+
+/* Sobre nosotros */
+
+.bannerNosotros {
+  width: 1200px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  background: url("img/lego_group.jpg"), white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bannerContenidoNosotros h2 {
+  font-family: Inter;
+  font-size: 40px;
+  text-align: center;
+  padding: 160px;
+  -webkit-text-stroke: 6px white;
+  paint-order: stroke fill;
+}
+
+.grupoLego p{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 450px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+/* Lego brand */
+
+.legoBrand {
+  font-size: 0; 
+}
+
+.legoBrandImg {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+}
+
+.legoBrandImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;} 
+
+.legoBrandTexto {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 120px 50px;
+  background-color: #ffbb00;
+}
+
+.legoBrandTexto h2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.legoBrandTexto p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 26px;
+}
+
+/* Historia */
+
+.historia h2{
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.historia p{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.historiaSeccion {
+  font-size: 0; 
+}
+
+.historiaTexto {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 50px 20px;
+  background-color: #ffbb00;
+}
+
+.historiaTexto p {
+  text-align: left;
+  width: 500px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+.historiaImg {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 400px;
+  background-color: #e8e0d5;
+}
+
+.historiaImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* Fundacion */
+
+.fundacion {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.fundacionH2 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fundacionIntro {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.fundacionFila {
+  font-size: 0; 
+  padding: 40px 0;
+  border-top: 1px solid #e0e0e0; 
+}
+
+.fundacionTitulo {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  box-sizing: border-box;
+  padding-right: 40px;
+}
+
+.fundacionTitulo h3 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  color: #e3000b; 
+  line-height: 30px;
+}
+
+.fundacionTexto {
+  display: inline-block;
+  vertical-align: top;
+  width: 65%;
+  box-sizing: border-box;
+}
+
+.fundacionTexto p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24px;
+  margin-bottom: 14px; 
+}
+
+.fundacionTexto p:last-child {
+  margin-bottom: 0;
+}
