@@ -724,3 +724,56 @@
 .fundacionTexto p:last-child {
   margin-bottom: 0;
 }
+
+/* Noticias - En Construcción */
+
+.enConstruccion {
+  font-size: 0;
+  padding: 80px 0;
+}
+
+.enConstruccionImg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 55%;
+}
+
+.enConstruccionImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.enConstruccionTexto {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.enConstruccionTexto h2 {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+.enConstruccionTexto h3 {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 700;
+  color: #e3000b;
+  margin-bottom: 20px;
+}
+
+.enConstruccionTexto p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 26px;
+}
