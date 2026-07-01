@@ -20,12 +20,12 @@
   vertical-align: bottom;
   width: 1000px;
   text-align: right;
-  margin-left:96px;
+  margin-left: 96px;
 }
 
-.ulNav{
-    display: inline-block;
-    vertical-align: middle;
+.ulNav {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav .ulNav li {
@@ -125,6 +125,14 @@
   display: block;
   font-size: 0;
   height: 130px;
+  background-image: linear-gradient(to top, #ffbb00, #ffbb00);
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: background-size 0.5s ease;
+}
+.cabeceraCard:hover {
+  background-size: 100% 100%;
 }
 .imgArticle {
   display: inline-block;
@@ -152,13 +160,6 @@
   color: #000;
 }
 
-.barraAmarilla {
-  display: block;
-  width: 280px;
-  height: 20px;
-  margin-top: 10px;
-  background-color: #ffbb00;
-}
 .textoCard {
   display: block;
   margin-top: 15px;
@@ -169,8 +170,8 @@
   text-align: left;
 }
 
-.articleValues:nth-child(odd){
-    margin-left: 240px;
+.articleValues:nth-child(odd) {
+  margin-left: 240px;
 }
 
 /* Lego Promises */
@@ -184,11 +185,10 @@
 .promiseCard {
   display: inline-block;
   vertical-align: top;
-  width: 300px;      
-  box-sizing: border-box;  
+  width: 300px;
+  box-sizing: border-box;
   padding: 0 20px;
 }
-
 
 .h3People {
   display: block;
@@ -200,14 +200,20 @@
   width: 100%;
   height: 260px;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/people.jpg");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)),
+    url("img/people.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: 100%;
   padding-top: 114px;
   padding-bottom: 114px;
-  -webkit-text-stroke:4px white;
+  -webkit-text-stroke: 4px white;
   paint-order: stroke fill;
+  transition: background-size 0.5s ease;
+}
+.h3People:hover {
+  background-size: 115%;
 }
 
 .h3Play {
@@ -220,16 +226,22 @@
   width: 100%;
   height: 260px;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/play.jpg");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)),
+    url("img/play.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: 100%;
   padding-top: 114px;
   padding-bottom: 114px;
-  -webkit-text-stroke:4px white;
+  -webkit-text-stroke: 4px white;
   paint-order: stroke fill;
+  transition: background-size 0.5s ease;
 }
 
+.h3Play:hover {
+  background-size: 115%;
+}
 .h3Planet {
   display: block;
   font-family: Inter;
@@ -240,16 +252,21 @@
   width: 100%;
   height: 260px;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/planet.jpg");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)),
+    url("img/planet.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: 100%;
   padding-top: 114px;
   padding-bottom: 114px;
-  -webkit-text-stroke:4px white;
+  -webkit-text-stroke: 4px white;
   paint-order: stroke fill;
+  transition: background-size 0.5s ease;
 }
-
+.h3Planet:hover {
+  background-size: 115%;
+}
 .h3Partner {
   display: block;
   font-family: Inter;
@@ -260,14 +277,20 @@
   width: 100%;
   height: 260px;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)), url("img/partner.jpg");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.342)),
+    url("img/partner.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: 100%;
   padding-top: 114px;
   padding-bottom: 114px;
-  -webkit-text-stroke:4px white;
+  -webkit-text-stroke: 4px white;
   paint-order: stroke fill;
+  transition: background-size 0.5s ease;
+}
+.h3Partner:hover {
+  background-size: 115%;
 }
 
 .textoCard {
@@ -284,14 +307,14 @@
 
 .insiders {
   margin-top: 100px;
-  background: #FFBB00;
+  background: #ffbb00;
 }
 
 .insidersContenido {
   width: 1200px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 50px 20px 50px 0; 
+  padding: 50px 20px 50px 0;
 }
 
 .insidersTexto {
@@ -324,7 +347,7 @@
 .insidersCards {
   display: inline-block;
   vertical-align: top;
-  width: 800px;   
+  width: 800px;
   font-size: 0;
   text-align: right;
 }
@@ -332,12 +355,16 @@
 .insiderCard {
   display: inline-block;
   vertical-align: top;
-  width: 230px;     
-  height: 320px;    
+  width: 230px;
+  height: 320px;
   box-sizing: border-box;
   margin-right: 40px;
   background-color: #d9d9d9;
   border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+.insiderCard:hover {
+  transform: rotate(10deg);
 }
 
 .insiderCard:last-child {
@@ -347,7 +374,7 @@
 .insiderCardImg {
   display: block;
   width: 100%;
-  height: 140px;   
+  height: 140px;
   margin: 0;
   border-radius: 20px;
 }
@@ -363,7 +390,7 @@
 .insiderCardTexto {
   display: block;
   box-sizing: border-box;
-  padding: 15px 20px;   
+  padding: 15px 20px;
 }
 
 .insiderCard h4 {
@@ -422,15 +449,15 @@
   width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
-  text-align: right;   
-  font-size: 0;         
+  text-align: right;
+  font-size: 0;
 }
 
 .seguinos h3 {
   display: inline-block;
   vertical-align: middle;
   font-family: Inter;
-  font-size: 20px;     
+  font-size: 20px;
   font-weight: 400;
   color: white;
   margin-right: 5px;
@@ -444,7 +471,7 @@
 
 .seguinos a img {
   display: block;
-  width: 32px;       
+  width: 32px;
   height: 32px;
   object-fit: contain;
 }
@@ -482,7 +509,7 @@
   paint-order: stroke fill;
 }
 
-.grupoLego p{
+.grupoLego p {
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
@@ -494,7 +521,7 @@
 /* Lego brand */
 
 .legoBrand {
-  font-size: 0; 
+  font-size: 0;
 }
 
 .legoBrandImg {
@@ -508,7 +535,8 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;} 
+  object-fit: cover;
+}
 
 .legoBrandTexto {
   display: inline-block;
@@ -538,7 +566,7 @@
 
 /* Historia */
 
-.historia h2{
+.historia h2 {
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
@@ -548,7 +576,7 @@
   text-align: center;
 }
 
-.historia p{
+.historia p {
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
@@ -560,7 +588,7 @@
 }
 
 .historiaSeccion {
-  font-size: 0; 
+  font-size: 0;
 }
 
 .historiaTexto {
@@ -596,7 +624,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 /* Fundacion */
@@ -625,9 +653,9 @@
 }
 
 .fundacionFila {
-  font-size: 0; 
+  font-size: 0;
   padding: 40px 0;
-  border-top: 1px solid #e0e0e0; 
+  border-top: 1px solid #e0e0e0;
 }
 
 .fundacionTitulo {
@@ -635,14 +663,45 @@
   vertical-align: top;
   width: 35%;
   box-sizing: border-box;
-  padding-right: 40px;
+  padding-right: 150px;
+  position: relative;
+}
+.fundacionImg {
+  display: block;
+  width: 120px;
+  position: absolute;
+  right: 10px;         
+  top: 50%;
+  transform: rotate(20deg) translateX(30px) translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.fundacionFila:hover .fundacionImg {
+  opacity: 1;
+  transform: rotate(-5deg) translateX(0) translateY(-50%);
+}
+.fundacionImgCientifica {
+  display: block;
+  width: 120px;
+  position: absolute;
+  right: 10px;         
+  top: 100%;
+  transform: rotate(20deg) translateX(30px) translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.fundacionFila:hover .fundacionImgCientifica {
+  opacity: 1;
+  transform: rotate(-5deg) translateX(0) translateY(-50%);
 }
 
 .fundacionTitulo h3 {
   font-family: Inter;
   font-size: 22px;
   font-weight: 700;
-  color: #e3000b; 
+  color: #e3000b;
   line-height: 30px;
 }
 
@@ -659,7 +718,7 @@
   font-weight: 400;
   color: #000;
   line-height: 24px;
-  margin-bottom: 14px; 
+  margin-bottom: 14px;
 }
 
 .fundacionTexto p:last-child {
